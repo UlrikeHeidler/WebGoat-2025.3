@@ -58,5 +58,5 @@ jobs:
           ### FIX PULL REQUEST CREATION
           polaris_fixpr_enabled: true
           ### SARIF report parameters
-          polaris_upload_sarif_report: true  # Upload SARIF report in GitHub Advanced Security tab
-          polaris_reports_sarif_create: true  # Create SARIF report and upload it as artifact
+          polaris_upload_sarif_report: false  # Upload SARIF report in GitHub Advanced Security tab
+          polaris_reports_sarif_create: false  # Create SARIF report and upload it as artifact
